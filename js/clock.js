@@ -8,4 +8,4 @@ function realTime(){
     const second = String(date.getSeconds()).padStart(2, ZERO);
     clock.innerHTML = `${hour}:${minute}:${second}`;
 }
-//setInterval(realTime, 1000);
+setInterval(realTime, 1000);
